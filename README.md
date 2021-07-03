@@ -20,8 +20,8 @@ It must implement the builtins:
 - " inhibit all interpretation of a sequence of characters except for $.
 
 Redirections:
-- < should redirect input.
-- > should redirect output.
+- '<' should redirect input.
+- '>' should redirect output.
 - Pipes | The output of each command in the pipeline is connected via a pipe to the input of the next command.
 - Environment variables ($ followed by characters) should expand to their values.
 - $? should expands to the exit status of the most recently executed foreground pipeline.
